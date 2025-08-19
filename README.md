@@ -120,8 +120,7 @@ No browser, no distractions — just code, info, and flow.
 
 ⸻
 
-🛠 Maintained by Edward Lee
-🐚 macOS Sequoia 15.6 | Ghostty | zsh | tmux
+🛠 Maintained by Edward Lee | macOS Sequoia 15.6 | Ghostty | zsh | tmux
 
 ---
 
