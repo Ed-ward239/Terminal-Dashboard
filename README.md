@@ -1,11 +1,9 @@
-# Terminal-Dashboard
-MacOS Multiple Panes with Interactive Dashboard
-
 Here’s a clean, structured README.md to document your terminal dashboard setup, based on your final script and layout:
 
 ⸻
 
-# Ghostty Terminal Dashboard
+
+# 🧠 Ghostty Terminal Dashboard
 
 A minimal, beautiful, and powerful terminal dashboard powered by [Ghostty](https://github.com/wez/ghostty), `tmux`, and a curated set of CLI tools. Designed for developers and productivity enthusiasts who live in the terminal.
 
@@ -13,13 +11,13 @@ A minimal, beautiful, and powerful terminal dashboard powered by [Ghostty](https
 
 ## 🖥️ Layout Overview
 
-+––––––––+––––––––––+–––––––––––––+–––––––––––––+–––––––––––––+
-| fastfetch      | tty-clock (center) | ticker (stocks)       |
-+––––––––+––––––––––+–––––––––––––+–––––––––––––+–––––––––––––+
-| btop (metrics) | calcurse (agenda)  | yazi (file manager)   |
-+––––––––+––––––––––+–––––––––––––+–––––––––––––+–––––––––––––+
-| newsboat (RSS) | nvim (notes)                               |
-+—————————————————————+–––––––––––––+–––––––––––––+–––––––––––+
++––––––––+––––––––––+–––––––––––––+
+| fastfetch      | tty-clock (center) | ticker (stocks)          |
++––––––––+––––––––––+–––––––––––––+
+| btop (metrics) | calcurse (agenda)  | yazi (file manager)      |
++––––––––+––––––––––+–––––––––––––+
+| newsboat (RSS) | nvim (notes)                                 |
++—————————————————————+
 
 ---
 
@@ -58,6 +56,7 @@ Then run:
 
 ~/ghostty_dash.sh
 
+
 ⸻
 
 🧩 Script Breakdown
@@ -74,6 +73,7 @@ Pane    Tool    Description
 6    newsboat    RSS feed reader
 7    nvim    Notes editor (~/notes.txt)
 
+
 ⸻
 
 📅 Agenda Integration
@@ -81,6 +81,7 @@ Pane    Tool    Description
 Customize calcurse with your events or sync it with a CalDAV service for productivity integration:
 
 nano ~/.calcurse/notes/
+
 
 ⸻
 
@@ -90,6 +91,7 @@ Add your favorite RSS feeds to ~/.newsboat/urls:
 
 https://feeds.bbci.co.uk/news/rss.xml BBC News
 https://www.theverge.com/rss/index.xml The Verge
+
 
 ⸻
 
@@ -129,4 +131,6 @@ No browser, no distractions — just code, info, and flow.
 
 🛠 Maintained by Edward Lee
 🐚 macOS Sequoia 15.6 | Ghostty | zsh | tmux
+
+---
 
