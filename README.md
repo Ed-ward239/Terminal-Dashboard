@@ -3,6 +3,8 @@
 A minimal, beautiful, and powerful terminal dashboard powered by [Ghostty](https://github.com/wez/ghostty), `tmux`, and a curated set of CLI tools. Designed for developers and productivity enthusiasts who live in the terminal.
 
 ---
+📸 Screenshot
+![Dashboard Preview](./img/dashboard.png)
 
 ## 🖥️ Layout Overview
 ```bash
@@ -115,11 +117,6 @@ This setup is ideal for:
     •    Terminal nerds who want it all on one screen
 
 No browser, no distractions — just code, info, and flow.
-
-⸻
-
-📸 Screenshot
-![Dashboard Preview](./img/dashboard.png)
 
 ⸻
 
