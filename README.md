@@ -1,9 +1,4 @@
-Here’s a clean, structured README.md to document your terminal dashboard setup, based on your final script and layout:
-
-⸻
-
-
-# 🧠 Ghostty Terminal Dashboard
+# Ghostty Terminal Dashboard
 
 A minimal, beautiful, and powerful terminal dashboard powered by [Ghostty](https://github.com/wez/ghostty), `tmux`, and a curated set of CLI tools. Designed for developers and productivity enthusiasts who live in the terminal.
 
@@ -38,28 +33,27 @@ brew install \
   newsboat \
   neovim \
   tmux
-
+```
 
 ⸻
 
-2. Clone & Run
-
+### 2. Clone & Run
 Create the script file:
-
+```bash
 nano ~/ghostty_dash.sh
-
+```
 Paste the following and make it executable:
-
+```bash
 chmod +x ~/ghostty_dash.sh
-
+```
 Then run:
-
+```bash
 ~/ghostty_dash.sh
-
+```
 
 ⸻
 
-🧩 Script Breakdown
+### 🧩 Script Breakdown
 
 Here’s what each pane runs in your tmux session:
 
@@ -79,13 +73,13 @@ Pane    Tool    Description
 📅 Agenda Integration
 
 Customize calcurse with your events or sync it with a CalDAV service for productivity integration:
-
+```bash
 nano ~/.calcurse/notes/
-
+```
 
 ⸻
 
-📰 RSS Feed Setup
+### 📰 RSS Feed Setup
 
 Add your favorite RSS feeds to ~/.newsboat/urls:
 
@@ -95,7 +89,7 @@ https://www.theverge.com/rss/index.xml The Verge
 
 ⸻
 
-⚙️ Configuration Files
+### ⚙️ Configuration Files
 
 Make it yours:
     •    ~/.tmux.conf: Tmux configuration
@@ -105,7 +99,7 @@ Make it yours:
 
 ⸻
 
-🧼 Optional Improvements
+### 🧼 Optional Improvements
     •    Use tmux-resurrect or tmuxinator to auto-restore layout
     •    Swap fastfetch with neofetch or macchina
     •    Add spotify-tui for music controls
@@ -113,7 +107,7 @@ Make it yours:
 
 ⸻
 
-🎯 Final Thoughts
+### 🎯 Final Thoughts
 
 This setup is ideal for:
     •    Developers
